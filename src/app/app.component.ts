@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import countapi from 'countapi-js';
 
 @Component({
   selector: 'my-app',
@@ -15,4 +16,5 @@ export class AppComponent  {
   increment() {
     this.counter++;
   }  
+
 }
